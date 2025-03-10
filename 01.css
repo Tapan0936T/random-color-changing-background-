@@ -8,6 +8,7 @@ body {
 /* Container to Center the Box */
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -30,4 +31,8 @@ body {
 /* Hover Effect */
 .change_colour:hover {
     background-color: darkgray;
+}
+.colur_code{
+    background-color: transparent;
+    font-weight: 1000;
 }

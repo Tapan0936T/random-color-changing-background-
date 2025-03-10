@@ -5,4 +5,5 @@ document.querySelector(".change_colour").addEventListener("click", function() {
     
     // Change the body's background color
     document.body.style.backgroundColor = randomColor;
+    document.querySelector(".colur_code").innerText = "colour code :" + randomColor;
 });

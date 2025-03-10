@@ -1,0 +1,33 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease; /* Smooth transition effect */
+}
+
+/* Container to Center the Box */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Clickable Box */
+.change_colour {
+    width: 150px;
+    height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.change_colour:hover {
+    background-color: darkgray;
+}

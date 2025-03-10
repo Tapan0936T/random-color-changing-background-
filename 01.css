@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     transition: background-color 0.5s ease; /* Smooth transition effect */
+    overflow: hidden; /* Prevent scrolling */
 }
 
 /* Container to Center the Box */
